@@ -1,0 +1,126 @@
+.bg-dark{
+    height: 105px;
+    
+}
+.home{
+    box-shadow:0px 10px 16px 0px rgb(0 0 0 / 100%) ;
+}
+
+.container-fluid{
+    justify-content:unset !important;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.navbar-brand{
+    margin-left: 10%;
+}
+
+
+.follow{
+    margin-left: 20%;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+   
+}
+.forclass{
+    border-radius: 0px;
+    box-shadow: 0px 10px 16px 0px rgb(0 0 0 / 100%);
+    text-transform: none;
+}
+.myclass{
+    white-space: nowrap;
+    /* overflow: hidden; */
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0 20px;
+
+}
+.myclass:active{
+    color: #FF2B06;
+}
+.bg {
+    position: fixed;
+    width: 100vw;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.up {
+    z-index: 2;
+}
+.classtwo{
+    margin-top: 130px;
+    text-align: center;
+    font-weight:800;
+    font-size:60px;
+    font-family:sans-serif;
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .classtwo  {
+        font-size:20px !important;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .follow{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(217deg, #ff0000, #000000);
+        width: 260px;
+        height: 100vh;
+        padding-left: 10px !important;
+    }
+    .follow ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .mb-2{
+        margin-bottom: 18rem !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 1380px) {
+    .navbar-brand{
+        margin-left: 6%;
+    }
+}
+
+@media only screen and (max-width: 1218px) {
+    .navbar-brand{
+        margin-left: 8%;
+    }
+
+    .blah{
+        height: 224px;
+        width: 250px;
+    }
+    .follow{
+        margin-left: 16%;
+    }
+}
+
+@media only screen and (max-width: 1218px) {
+    .navbar-brand{
+        margin-left: 8%;
+    }
+
+    .blah{
+        height: 224px;
+        width: 250px;
+    }
+    .follow{
+        margin-left: 16%;
+    }
+}
